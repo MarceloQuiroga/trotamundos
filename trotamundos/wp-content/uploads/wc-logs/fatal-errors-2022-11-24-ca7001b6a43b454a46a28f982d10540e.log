@@ -1,0 +1,224 @@
+2022-11-24T07:22:37+00:00 CRITICAL Uncaught Error: Undefined constant "‘submit’" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code:24
+Stack trace:
+#0 /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64): eval()
+#1 /var/www/trotamundos/wp-content/plugins/elementor/includes/widgets/wordpress.php(276): Xyz_Insert_Php_Widget->widget()
+#2 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/controls-stack.php(2266): Elementor\Widget_WordPress->render()
+#3 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#6 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#7 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#8 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#9 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#10 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1652): Elementor\Element_Base->print_element()
+#11 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1087): Elementor\Core\Base\Document->print_elements()
+#12 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1144): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#13 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1039): Elementor\Frontend->get_builder_content()
+#14 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#15 /var/www/trotamundos/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#16 /var/www/trotamundos/wp-includes/post-template.php(255): apply_filters()
+#17 /var/www/trotamundos/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#18 /var/www/trotamundos/wp-includes/template.php(785): require('...')
+#19 /var/www/trotamundos/wp-includes/template.php(718): load_template()
+#20 /var/www/trotamundos/wp-includes/general-template.php(204): locate_template()
+#21 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part()
+#22 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->template_parts_page()
+#23 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#24 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#25 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action()
+#26 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup()
+#27 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->loop_markup_page()
+#28 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#29 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /var/www/trotamundos/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#31 /var/www/trotamundos/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#32 /var/www/trotamundos/wp-includes/template-loader.php(106): include('...')
+#33 /var/www/trotamundos/wp-blog-header.php(19): require_once('...')
+#34 /var/www/trotamundos/index.php(17): require('...')
+#35 {main}
+  thrown in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 24
+
+2022-11-24T07:23:04+00:00 CRITICAL Uncaught Error: Undefined constant "‘submit’" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code:24
+Stack trace:
+#0 /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64): eval()
+#1 /var/www/trotamundos/wp-content/plugins/elementor/includes/widgets/wordpress.php(276): Xyz_Insert_Php_Widget->widget()
+#2 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/controls-stack.php(2266): Elementor\Widget_WordPress->render()
+#3 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#6 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#7 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#8 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#9 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#10 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1652): Elementor\Element_Base->print_element()
+#11 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1087): Elementor\Core\Base\Document->print_elements()
+#12 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1144): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#13 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1039): Elementor\Frontend->get_builder_content()
+#14 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#15 /var/www/trotamundos/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#16 /var/www/trotamundos/wp-includes/post-template.php(255): apply_filters()
+#17 /var/www/trotamundos/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#18 /var/www/trotamundos/wp-includes/template.php(785): require('...')
+#19 /var/www/trotamundos/wp-includes/template.php(718): load_template()
+#20 /var/www/trotamundos/wp-includes/general-template.php(204): locate_template()
+#21 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part()
+#22 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->template_parts_page()
+#23 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#24 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#25 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action()
+#26 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup()
+#27 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->loop_markup_page()
+#28 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#29 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /var/www/trotamundos/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#31 /var/www/trotamundos/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#32 /var/www/trotamundos/wp-includes/template-loader.php(106): include('...')
+#33 /var/www/trotamundos/wp-blog-header.php(19): require_once('...')
+#34 /var/www/trotamundos/index.php(17): require('...')
+#35 {main}
+  thrown in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 24
+
+2022-11-24T07:23:42+00:00 CRITICAL Uncaught Error: Undefined constant "‘submit’" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code:24
+Stack trace:
+#0 /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64): eval()
+#1 /var/www/trotamundos/wp-content/plugins/elementor/includes/widgets/wordpress.php(276): Xyz_Insert_Php_Widget->widget()
+#2 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/controls-stack.php(2266): Elementor\Widget_WordPress->render()
+#3 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#6 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#7 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#8 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#9 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#10 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1652): Elementor\Element_Base->print_element()
+#11 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1087): Elementor\Core\Base\Document->print_elements()
+#12 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1144): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#13 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1039): Elementor\Frontend->get_builder_content()
+#14 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#15 /var/www/trotamundos/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#16 /var/www/trotamundos/wp-includes/post-template.php(255): apply_filters()
+#17 /var/www/trotamundos/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#18 /var/www/trotamundos/wp-includes/template.php(785): require('...')
+#19 /var/www/trotamundos/wp-includes/template.php(718): load_template()
+#20 /var/www/trotamundos/wp-includes/general-template.php(204): locate_template()
+#21 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part()
+#22 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->template_parts_page()
+#23 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#24 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#25 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action()
+#26 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup()
+#27 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->loop_markup_page()
+#28 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#29 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /var/www/trotamundos/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#31 /var/www/trotamundos/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#32 /var/www/trotamundos/wp-includes/template-loader.php(106): include('...')
+#33 /var/www/trotamundos/wp-blog-header.php(19): require_once('...')
+#34 /var/www/trotamundos/index.php(17): require('...')
+#35 {main}
+  thrown in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 24
+
+2022-11-24T07:23:46+00:00 CRITICAL Uncaught Error: Undefined constant "‘submit’" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code:24
+Stack trace:
+#0 /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64): eval()
+#1 /var/www/trotamundos/wp-content/plugins/elementor/includes/widgets/wordpress.php(276): Xyz_Insert_Php_Widget->widget()
+#2 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/controls-stack.php(2266): Elementor\Widget_WordPress->render()
+#3 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#6 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#7 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#8 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#9 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#10 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1652): Elementor\Element_Base->print_element()
+#11 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1087): Elementor\Core\Base\Document->print_elements()
+#12 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1144): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#13 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1039): Elementor\Frontend->get_builder_content()
+#14 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#15 /var/www/trotamundos/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#16 /var/www/trotamundos/wp-includes/post-template.php(255): apply_filters()
+#17 /var/www/trotamundos/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#18 /var/www/trotamundos/wp-includes/template.php(785): require('...')
+#19 /var/www/trotamundos/wp-includes/template.php(718): load_template()
+#20 /var/www/trotamundos/wp-includes/general-template.php(204): locate_template()
+#21 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part()
+#22 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->template_parts_page()
+#23 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#24 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#25 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action()
+#26 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup()
+#27 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->loop_markup_page()
+#28 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#29 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /var/www/trotamundos/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#31 /var/www/trotamundos/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#32 /var/www/trotamundos/wp-includes/template-loader.php(106): include('...')
+#33 /var/www/trotamundos/wp-blog-header.php(19): require_once('...')
+#34 /var/www/trotamundos/index.php(17): require('...')
+#35 {main}
+  thrown in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 24
+
+2022-11-24T07:24:13+00:00 CRITICAL Uncaught Error: Undefined constant "‘submit’" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code:24
+Stack trace:
+#0 /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64): eval()
+#1 /var/www/trotamundos/wp-content/plugins/elementor/includes/widgets/wordpress.php(276): Xyz_Insert_Php_Widget->widget()
+#2 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/controls-stack.php(2266): Elementor\Widget_WordPress->render()
+#3 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Widget_Base->print_content()
+#6 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#7 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#8 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(801): Elementor\Element_Base->print_element()
+#9 /var/www/trotamundos/wp-content/plugins/elementor/includes/base/element-base.php(447): Elementor\Element_Base->print_content()
+#10 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1652): Elementor\Element_Base->print_element()
+#11 /var/www/trotamundos/wp-content/plugins/elementor/core/base/document.php(1087): Elementor\Core\Base\Document->print_elements()
+#12 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1144): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#13 /var/www/trotamundos/wp-content/plugins/elementor/includes/frontend.php(1039): Elementor\Frontend->get_builder_content()
+#14 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Elementor\Frontend->apply_builder_in_content()
+#15 /var/www/trotamundos/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#16 /var/www/trotamundos/wp-includes/post-template.php(255): apply_filters()
+#17 /var/www/trotamundos/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#18 /var/www/trotamundos/wp-includes/template.php(785): require('...')
+#19 /var/www/trotamundos/wp-includes/template.php(718): load_template()
+#20 /var/www/trotamundos/wp-includes/general-template.php(204): locate_template()
+#21 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part()
+#22 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->template_parts_page()
+#23 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#24 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#25 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action()
+#26 /var/www/trotamundos/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup()
+#27 /var/www/trotamundos/wp-includes/class-wp-hook.php(308): Astra_Loop->loop_markup_page()
+#28 /var/www/trotamundos/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#29 /var/www/trotamundos/wp-includes/plugin.php(517): WP_Hook->do_action()
+#30 /var/www/trotamundos/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#31 /var/www/trotamundos/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#32 /var/www/trotamundos/wp-includes/template-loader.php(106): include('...')
+#33 /var/www/trotamundos/wp-blog-header.php(19): require_once('...')
+#34 /var/www/trotamundos/index.php(17): require('...')
+#35 {main}
+  thrown in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 24
+
+2022-11-24T07:30:20+00:00 CRITICAL Unclosed '{' on line 27 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 28
+
+2022-11-24T07:30:25+00:00 CRITICAL Unclosed '{' on line 27 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 28
+
+2022-11-24T07:32:11+00:00 CRITICAL Unclosed '{' on line 27 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 28
+
+2022-11-24T07:32:33+00:00 CRITICAL Unclosed '{' on line 27 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 28
+
+2022-11-24T07:58:45+00:00 CRITICAL Unclosed '{' on line 27 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 28
+
+2022-11-24T08:10:37+00:00 CRITICAL Unclosed '{' on line 21 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 22
+
+2022-11-24T08:11:09+00:00 CRITICAL Unclosed '{' on line 21 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 22
+
+2022-11-24T08:12:17+00:00 CRITICAL Unclosed '{' on line 21 does not match ')' in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 22
+
+2022-11-24T08:14:14+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 23
+
+2022-11-24T08:29:39+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 21
+
+2022-11-24T08:29:57+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 21
+
+2022-11-24T08:30:09+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /var/www/trotamundos/wp-content/plugins/insert-php-code-snippet/widget.php(64) : eval()'d code on line 21
+
